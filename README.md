@@ -297,7 +297,7 @@ Kafka Producer → Kafka Topic → PySpark Consumer → Bronze Delta
 
 ### 🔄 Apache Airflow Start-Up
 
-![Airflow Startup](./images/docker-compose-airflow.png)
+![Airflow Startup](./images/airflow-dag.png)
 
 - Airflow webserver running in Docker
 - UI available at `http://localhost:8080`
@@ -305,7 +305,7 @@ Kafka Producer → Kafka Topic → PySpark Consumer → Bronze Delta
 
 ### 🔄 Apache Airflow DAG (Pipeline Orchestration)
 
-![Airflow DAG Pipeline](./images/airflow-dag.png)
+![Airflow DAG Pipeline](./images/docker-compose-airflow.png)
 
 - Airflow DAG orchestrating the Silver → Gold transaction pipeline
 - Automates transformation workflow on a scheduled basis
